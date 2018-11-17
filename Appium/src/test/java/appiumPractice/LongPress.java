@@ -34,6 +34,7 @@ public class LongPress {
 		TouchAction ta = new TouchAction(driver);
 		MobileElement element = driver.findElementById("com.android.mms:id/subject");
 		System.out.println("Now we will perform long press");
+		System.out.println();
 //		ta.longPress(element).perform().release();
 		Thread.sleep(2000);
 		boolean displayed = driver.findElementByAccessibilityId("Cancel").isDisplayed();
